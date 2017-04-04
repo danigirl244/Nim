@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Nim
 {
-    class Player
+    public class Player
     {
+        public bool isTurn { get; set; }
+
     }
 }
